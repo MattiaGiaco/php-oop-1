@@ -5,6 +5,7 @@ class Movie{
   public $genre;
   public $year;
   public $duration;
+  public $plot;
   public $director;
   public $writers;
   public $stars;
@@ -16,6 +17,10 @@ class Movie{
     $this->genre = $_genre;
     $this->year = $_year;
     $this->duration = $_duration;
+  }
+
+  public function getExcept(){
+    return substr($this->plot,0,30) . "...";
   }
 
 }

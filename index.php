@@ -1,5 +1,6 @@
 <?php 
-
+require_once __DIR__."/Movie.php";
+require_once __DIR__."/database.php";
 
 ?>
 
@@ -13,7 +14,7 @@
 </head>
 <body>
   <div>
-    
+
   </div>
 </body>
 </html>
